@@ -1,0 +1,12 @@
+Scope of work:
+
+Chatbot name: azem-for-trip-planning
+
+- New order: 
+    - Build new order
+    - Place new order
+    - Support payment through an order
+
+- Track order:
+    - Track order by order number
+    - Cancel order by order number
