@@ -12,7 +12,6 @@ Welcome to the AI Dialogue Assistant for Customized Trip Planning! This project 
     - [Prerequisites](#prerequisites)
     - [Clone the Repository](#clone-the-repository)
     - [Install Dependencies](#install-dependencies)
-    - [Set Up API Keys](#set-up-api-keys)
   - [Usage](#usage)
     - [Running the Chatbot](#running-the-chatbot)
     - [Features](#features)
@@ -60,32 +59,15 @@ cd cs6320-project-repo
 pip install -r requirements.txt
 ```
 
-### Set Up API Keys
-
-1. **ChatGPT API Key**: Obtain an API key from [OpenAI](https://openai.com/).
-2. **Google Search API Key**: Obtain an API key from [Google Cloud Platform](https://cloud.google.com/).
-
-Create a `config.json` file in the root directory:
-
-```json
-{
-  "openai_api_key": "YOUR_OPENAI_API_KEY",
-  "google_api_key": "YOUR_GOOGLE_API_KEY"
-}
-```
-
-**Note**: Do not commit `config.json` to the repository. It's included in `.gitignore`.
-
 ## Usage
 
 ### Running the Chatbot
 
-```bash
-python src/main.py
-```
+Visit the following link to interact with the chatbot: [Chatbot Link](https://bot.dialogflow.com/0810a38f-a903-4877-bf93-1554c7d7e292). The source code for the chatbot is available in the `src/` directory, which serves as the backend for the chatbot.
 
 ### Features
 
+- Recommend Destinations: The chatbot suggests popular travel destinations based on user preferences.
 - Start a New Trip Plan: The chatbot guides you through planning a new trip.
 - Manage Existing Trips: Modify or cancel trips by providing your track ID or contact information.
 - Customize Interaction: Adjust the chatbot's conversational style according to your preferences.
